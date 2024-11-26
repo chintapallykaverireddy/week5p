@@ -5,7 +5,7 @@ pipeline {
        steps {
          script {
            bat "docker build -t week5p ."
-           bat "docker run -d -p 3006:3006 week5p"
+           bat "docker run -d -p 3000:3000 week5p"
          }
        }
     } 
